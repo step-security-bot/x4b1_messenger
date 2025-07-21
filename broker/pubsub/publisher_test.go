@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"cloud.google.com/go/pubsub"
-	"cloud.google.com/go/pubsub/pstest"
+	"cloud.google.com/go/pubsub/v2"
+	"cloud.google.com/go/pubsub/v2/pstest"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/x4b1/messenger"

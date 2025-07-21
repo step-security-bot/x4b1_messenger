@@ -4,7 +4,7 @@ package pubsub
 import (
 	"context"
 
-	"cloud.google.com/go/pubsub"
+	"cloud.google.com/go/pubsub/v2"
 	"github.com/x4b1/messenger"
 	"github.com/x4b1/messenger/broker"
 )
